@@ -1,14 +1,14 @@
 .jumbotron {
   padding: 2rem;
-  background-color: #e3caa5;
+  background-color: #e3bec6;
 }
 
 #projects {
-  background-color: #f4dfba;
+  background-color: #d5bfbf;
 }
 
 footer {
-  background-color: #ad8b73;
+  background-color: #85586f;
   font-size: small;
 }
 
@@ -21,11 +21,11 @@ footer a:hover {
 }
 
 .btn {
-  background-color: #ad8b73;
+  background-color: #85586f;
   color: white;
 }
 
 .btn:hover {
-  background-color: #e3caa5;
+  background-color: #ffcbcb;
   color: white;
 }
