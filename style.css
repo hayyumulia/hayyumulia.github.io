@@ -29,3 +29,11 @@ footer a:hover {
   background-color: #ffcbcb;
   color: white;
 }
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0rem;
+}
