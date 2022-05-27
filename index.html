@@ -137,6 +137,41 @@
     </section>
     <!-- Akhir Projects -->
 
+    <!-- Awal My Food -->
+    <section id-"my-food">
+      <div class="container">
+        <div class="row text-center pt-4 mb-3">
+          <div class="col">
+            <h2>My Food</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="food-box">
+              <h4 class="food-name">Steak</h4>
+              <img src="img/food/food1.png" alt="Steak" class="food-img">
+              <a href="#" class="btn food-detail-button">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="food-box">
+              <h4 class="food-name">Salad</h4>
+              <img src="img/food/food2.png" alt="Salad" class="food-img">
+              <a href="#" class="btn food-detail-button">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="food-box">
+              <h4 class="food-name">Croissant</h4>
+              <img src="img/food/food3.png" alt="Croissant" class="food-img">
+              <a href="#" class="btn food-detail-button">Show Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir My Food -->
+
     <!-- Galeri -->
     <section id="gallery">
       <div class="container">
@@ -291,6 +326,14 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".food-box"), {
+        max: 25,
+        speed: 400
       });
     </script>
   </body>
